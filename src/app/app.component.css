@@ -1,0 +1,118 @@
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  margin-top: 40px;
+}
+
+.ItemSegment{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.ItemSegment-1{
+  flex-basis: 40%;
+}
+.active,
+.collapsible:hover {
+  background-color: #555;
+}
+.content {
+  padding: 0 ,18px;
+  overflow: hidden;
+  display: none;
+  /* background-color: #f1f1f1; */
+  /* new css */
+  /* border-radius: 20px; */
+  color: #fff;
+  font-size: 18px;
+  background: rgba(255,255,255,0.1);
+  box-shadow: 10px 10px 20px -10px rgba(255, 255, 255, 0.2);
+  border-right: 1px solid rgba(255,255,255,0.2);
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+  backdrop-filter: blur(10px);
+  transition: .5s ease;
+}
+.collapsible {
+  background-color: black;
+  color: white;
+  cursor: pointer !important;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  width: 100% !important;
+  border-radius: 15px 15px 0px 0px;
+    margin-bottom: 2px;
+}
+.OrderCard {
+  margin: 40px;
+  /* border-color: #ddd;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%); */
+  transition: 0.3s;
+  border-radius: 5px;
+  width: 75%;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border-radius: 15px 15px 0 0; */
+  /* trying new css */
+  padding: 0;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 18px;
+  background: rgba(255,255,255,0.1);
+  box-shadow: 10px 10px 20px -10px rgba(255, 255, 255, 0.2);
+  border-right: 1px solid rgba(255,255,255,0.2);
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+  backdrop-filter: blur(10px);
+  transition: .5s ease;
+}
+.OrderDetails{
+  margin: 7px;
+  /* border-color: #ddd;
+  background-color: #fff; */
+  /* background-color: red; */
+  /* box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%); */
+  transition: 0.3s;
+  border-radius: 15px;
+  width: 35%;
+  min-height: 50%;
+   /* trying new css */
+   padding: 10px;
+   border-radius: 20px;
+   color: #fff;
+   font-size: 18px;
+   background: rgba(255,255,255,0.1);
+   box-shadow: 10px 10px 20px -10px rgba(255, 255, 255, 0.2);
+   border-right: 1px solid rgba(255,255,255,0.2);
+   border-bottom: 1px solid rgba(255,255,255,0.2);
+   backdrop-filter: blur(10px);
+   transition: .5s ease;
+}
+.OrderCard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.container{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+}
+.container-box{
+    flex-basis:12%;
+    margin-left: 20px;
+  }
+  .Total{
+    float: right;
+  }
+  .info{
+    background-image:url(../assets/info.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    min-height: 35px;
+    min-width:35px;
+  }
